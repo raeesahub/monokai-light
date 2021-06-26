@@ -88,7 +88,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#7A3E9D"
+				"foreground": "#1CDBF2"
 			}
 		},
 		{
@@ -205,6 +205,32 @@
 				"foreground": "#333333"
 			}
 		},
+    {
+      "name": "JS: keywords",
+      "scope": [
+        "entity.name.function.js",
+      ],
+      "settings": {
+        "foreground": "#1CDBF2"
+      }
+    },
+    {
+      "name": "JS: parameters",
+      "scope": "variable.parameter.js",
+      "settings": {
+        "foreground": "#FF8F00"
+      }
+    },
+    {
+      "name": "JS: arrow functions",
+      "scope": [
+        "meta.definition.variable.js",
+        "meta.var-single-variable.expr.js"
+      ],
+      "settings": {
+        "foreground": "#FF8F00"
+      }
+    },
 		{
 			"name": "HTML: Doctype Declaration",
 			"scope": [
