@@ -1,0 +1,21 @@
+{
+    "name": "monokai-light",
+    "displayName": "monokai light",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monokai Light",
+                "uiTheme": "vs",
+                "path": "./themes/Monokai Light-color-theme.json"
+            }
+        ]
+    }
+}
