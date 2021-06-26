@@ -2,7 +2,7 @@
 	"name": "Monokai Light",
 	"type": "light",
 	"colors": {
-		"editor.background": "#f2f2f2",
+		"editor.background": "#ffffff",
 		"editor.foreground": "#333333"
 	},
 	"tokenColors": [
@@ -46,7 +46,7 @@
 			"name": "Operators",
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#FF0070"
+				"foreground": "#F11D50"
 			}
 		},
 		{
@@ -56,7 +56,7 @@
 				"storage",
 			],
 			"settings": {
-				"foreground": "#1CDBF2"
+				"foreground": "#00B0DE"
 			}
 		},
     {
@@ -66,7 +66,7 @@
         "keyword.control"
       ],
       "settings": {
-        "foreground": "#FF0070"
+        "foreground": "#F11D50"
       }
     },
     {
@@ -77,7 +77,7 @@
         "support.class"
       ],
       "settings": {
-        "foreground": "#1CDBF2",
+        "foreground": "#00B0DE",
         "fontStyle": "italic",
       }
     },
@@ -88,7 +88,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#1CDBF2"
+				"foreground": "#00B0DE"
 			}
 		},
 		{
@@ -99,7 +99,7 @@
 				"variable.language"
 			],
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#5E54C9"
 			}
 		},
 		{
@@ -119,30 +119,34 @@
         "variable.other.block.ruby"
       ],
       "settings": {
-        "foreground": "#FF8F00"
+        "foreground": "#FF5E00",
+        "fontStyle": "italic"
       }
     },
 		{
 			"name": "Functions",
 			"scope": [
 				"entity.name.function",
-				"support.function"
 			],
 			"settings": {
-				// "fontStyle": "bold",
-				"foreground": "#93E400"
+				"foreground": "#50B100"
 			}
 		},
+    {
+      "name": "Support function",
+      "scope": "support.function",
+      "settings": {
+        "foreground": "#00B0DE"
+      }
+    },
 		{
 			"name": "Classes",
 			"scope": [
 				"entity.name.type",
 				"entity.other.inherited-class",
-				// "support.class"
 			],
 			"settings": {
-				// "fontStyle": "italic",
-				"foreground": "#93E400"
+				"foreground": "#50B100"
 			}
 		},
 		{
@@ -164,24 +168,31 @@
 			"scope": [
 				"constant.numeric",
 				"constant.character",
-				"constant"
+				"constant",
+        "punctuation.definition.constant.ruby"
 			],
 			"settings": {
-				"foreground": "#B37EFF"
+				"foreground": "#5E54C9"
 			}
 		},
 		{
 			"name": "Strings",
-			"scope": "string",
+			"scope": [
+        "string",
+        "punctuation.definition.string.begin.ruby",
+        "punctuation.definition.string.end.ruby",
+        "punctuation.definition.string.begin.js",
+        "punctuation.definition.string.end.js"
+      ],
 			"settings": {
-				"foreground": "#EADA61"
+				"foreground": "#FF9600"
 			}
 		},
 		{
 			"name": "Strings: Escape Sequences",
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#B37EFF"
+				"foreground": "#5E54C9"
 			}
 		},
 		{
@@ -195,7 +206,7 @@
 			"name": "Strings: Symbols",
 			"scope": "constant.other.symbol",
 			"settings": {
-				"foreground": "#B37EFF"
+				"foreground": "#5E54C9"
 			}
 		},
 		{
@@ -211,14 +222,14 @@
         "entity.name.function.js",
       ],
       "settings": {
-        "foreground": "#1CDBF2"
+        "foreground": "#00B0DE"
       }
     },
     {
       "name": "JS: parameters",
       "scope": "variable.parameter.js",
       "settings": {
-        "foreground": "#FF8F00"
+        "foreground": "#FF5E00"
       }
     },
     {
@@ -228,7 +239,7 @@
         "meta.var-single-variable.expr.js"
       ],
       "settings": {
-        "foreground": "#FF8F00"
+        "foreground": "#FF5E00"
       }
     },
 		{
