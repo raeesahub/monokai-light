@@ -44,7 +44,7 @@
 		},
 		{
 			"name": "Operators",
-			"scope": "keyword.operator",
+			"scope": ["keyword.operator"],
 			"settings": {
 				"foreground": "#F11D50"
 			}
@@ -127,6 +127,8 @@
 			"name": "Functions",
 			"scope": [
 				"entity.name.function",
+        "meta.function.method.with-arguments.ruby",
+        "meta.function.method.without-arguments.ruby"
 			],
 			"settings": {
 				"foreground": "#50B100"
@@ -134,7 +136,10 @@
 		},
     {
       "name": "Support function",
-      "scope": "support.function",
+      "scope": [
+        "support.function",
+        "meta.function-call.ruby entity.name.function.ruby"
+      ],
       "settings": {
         "foreground": "#00B0DE"
       }
@@ -149,6 +154,15 @@
 				"foreground": "#50B100"
 			}
 		},
+    {
+      "name": "Ruby Constants",
+      "scope": [
+        "variable.other.constant.ruby",
+      ],
+      "settings": {
+        "foreground": "#50B100"
+      }
+    },
 		{
 			"name": "Exceptions",
 			"scope": "entity.name.exception",
@@ -226,6 +240,15 @@
       }
     },
     {
+      "name": "JS: arrow method name",
+      "scope": [
+        "meta.definition.variable.js entity.name.function.js",
+      ],
+      "settings": {
+        "foreground": "#50B100"
+      }
+    },
+    {
       "name": "JS: parameters",
       "scope": "variable.parameter.js",
       "settings": {
@@ -263,14 +286,14 @@
 				"punctuation.definition.tag.end.html"
 			],
 			"settings": {
-				"foreground": "#91B3E0"
+				"foreground": "#333333"
 			}
 		},
 		{
 			"name": "HTML: Tag Names",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#4B83CD"
+				"foreground": "#F11D50"
 			}
 		},
 		{
@@ -281,7 +304,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#91B3E0"
+				"foreground": "#50B100"
 			}
 		},
 		{
