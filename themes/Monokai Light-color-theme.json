@@ -303,7 +303,6 @@
 				"entity.other.attribute-name.html"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#50B100"
 			}
 		},
@@ -326,9 +325,21 @@
 				"entity.name.tag.css"
 			],
 			"settings": {
-				"foreground": "#7A3E9D"
+				"foreground": "#F11D50"
 			}
 		},
+      {
+        "name": "CSS: Class and ID",
+        "scope": [
+          "entity.other.attribute-name.class.css",
+          "punctuation.definition.entity.css",
+          "entity.other.attribute-name.id.css",
+          "entity.other.attribute-name.pseudo-class.css"
+        ],
+        "settings": {
+          "foreground": "#50B100"
+        }
+      },
 		{
 			"name": "CSS: Property Names",
 			"scope": [
@@ -336,7 +347,7 @@
 				"support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#00B0DE"
 			}
 		},
 		{
@@ -347,14 +358,14 @@
 				"support.constant.property-value"
 			],
 			"settings": {
-				"foreground": "#448C27"
+				"foreground": "#00B0DE"
 			}
 		},
 		{
 			"name": "CSS: Important Keyword",
-			"scope": "keyword.other.important",
+			"scope": ["keyword.other.important", "keyword.other.unit.px.css"],
 			"settings": {
-				"fontStyle": "bold"
+				"foreground": "#F11D50"
 			}
 		},
 		{
