@@ -1,8 +1,19 @@
 {
     "name": "monokai-light",
-    "displayName": "monokai light",
-    "description": "",
-    "version": "0.0.1",
+    "displayName": "Monokai Light Theme",
+    "description": "A light, bright, Monokai-inspired theme",
+    "version": "1.0.0",
+    "publisher": "raeesa",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/raeesahub/monokai-light"
+    },
+    "keywords": [
+      "theme",
+      "light theme",
+      "minimal",
+      "monokai"
+    ],
     "engines": {
         "vscode": "^1.57.0"
     },
