@@ -1,13 +1,15 @@
-# README
-## This is the README for your extension "monokai-light"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Monokai Light Theme
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+A light, bright, minimal theme for VS Code.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Inspired by the default Monokai theme for Sublime Text, with colours adapted for a lighter background.
+
+## Installation
+ * Launch the command palette with `ctrl/cmd + shift + p`
+* Run `ext install tbd`
+
+## Contributing
+
+I've built this theme with Ruby, Javascript, HTML and CSS in mind; if you have any suggestions, visit the [GitHub repo](https://github.com/raeesahub/monokai-light) and feel free to open an issue :)
 
 **Enjoy!**
