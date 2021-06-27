@@ -2,8 +2,20 @@
 
 All notable changes to the "monokai-light" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
 ## [Unreleased]
 
-- Initial release
+## [1.0.1] - 2021-06-27
+### Added
+- Icon for marketplace
+- Screenshot to README
+- Started using changelog file
+
+### Changed
+- Installation instructions
+
+### Removed
+- Quickstart guide
+
+## [1.0.0] - 2021-06-27
+### Added
+- First publication.
