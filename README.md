@@ -6,7 +6,7 @@ Inspired by the default Monokai theme for Sublime Text, with colours adapted for
 
 ## Installation
  * Launch the command palette with `ctrl/cmd + shift + p`
-* Run `ext install tbd`
+ * Run `ext install raeesa.monokai-light`
 
 ## Contributing
 
