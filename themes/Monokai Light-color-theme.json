@@ -393,7 +393,7 @@
 			"name": "Markup: Error",
 			"scope": "markup.error",
 			"settings": {
-				"foreground": "#660000"
+				"foreground": "#F11D50"
 			}
 		},
 		{
@@ -407,7 +407,7 @@
 			"name": "Markup: Link",
 			"scope": "meta.link",
 			"settings": {
-				"foreground": "#4B83CD"
+				"foreground": "#00B0DE"
 			}
 		},
 		{
@@ -431,7 +431,7 @@
 			"name": "Markup: Heading",
 			"scope": "markup.heading",
 			"settings": {
-				"foreground": "#AA3731"
+				"foreground": "#F11D50"
 			}
 		},
 		{
@@ -445,7 +445,7 @@
 			"name": "Markup: Traceback",
 			"scope": "markup.traceback",
 			"settings": {
-				"foreground": "#660000"
+				"foreground": "#F11D50"
 			}
 		},
 		{
@@ -459,14 +459,14 @@
 			"name": "Markup Quote",
 			"scope": "markup.quote",
 			"settings": {
-				"foreground": "#7A3E9D"
+				"foreground": "#5E54C9"
 			}
 		},
 		{
 			"name": "Markup Lists",
 			"scope": "markup.list",
 			"settings": {
-				"foreground": "#4B83CD"
+				"foreground": "#333333"
 			}
 		},
 		{
@@ -476,7 +476,7 @@
 				"markup.italic"
 			],
 			"settings": {
-				"foreground": "#448C27"
+				"foreground": "#50B100"
 			}
 		},
 		{
@@ -484,7 +484,7 @@
 			"scope": "markup.inline.raw",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#AB6526"
+				"foreground": "#333333"
 			}
 		},
 		{
