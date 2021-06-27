@@ -213,7 +213,7 @@
 			"name": "Strings: Regular Expressions",
 			"scope": "string.regexp",
 			"settings": {
-				"foreground": "#4B83CD"
+				"foreground": "#FF9600"
 			}
 		},
 		{
