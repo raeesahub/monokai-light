@@ -4,6 +4,10 @@ All notable changes to the "monokai-light" extension will be documented in this 
 
 ## [Unreleased]
 
+## [1.1.1] - 2021-06-28
+### Changed
+- Fixed typo in screenshot
+
 ## [1.1.0] - 2021-06-27
 ### Added
 - Icon for marketplace
