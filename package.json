@@ -11,8 +11,11 @@
     "keywords": [
         "theme",
         "light theme",
+        "light",
+        "bright",
         "minimal",
-        "monokai"
+        "monokai",
+        "sublime"
     ],
     "icon": "images/monokai-light.png",
     "engines": {
