@@ -4,6 +4,10 @@ All notable changes to the "monokai-light" extension will be documented in this 
 
 ## [Unreleased]
 
+## [1.1.2] - 2021-06-29
+### Changed
+- Minor style fixes
+
 ## [1.1.1] - 2021-06-28
 ### Changed
 - Updated screenshot
