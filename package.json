@@ -18,6 +18,10 @@
         "sublime"
     ],
     "icon": "images/monokai-light.png",
+    "galleryBanner": {
+        "color": "#2C2B2C",
+        "theme": "dark"
+      },
     "engines": {
         "vscode": "^1.57.0"
     },
