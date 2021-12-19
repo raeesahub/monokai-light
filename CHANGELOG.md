@@ -2,7 +2,11 @@
 
 All notable changes to the "monokai-light" extension will be documented in this file.
 
-## [1.1.3] - 2021-12-12
+## [1.1.5] - 2021-12-19
+### Changed
+- Updated screenshot
+
+## [1.1.4] - 2021-12-12
 ### Added
 - MIT License
 
